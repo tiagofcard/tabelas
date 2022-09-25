@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="table">
+      <tr>
+        <td class="table">1</td>
+        <td class="table">2</td>
+        <td class="table">3</td>
+      </tr>
+      <tr style="text-align: center">
+        <td class="table">4</td>
+        <td class="table">5</td>
+        <td class="table">6</td>
+      </tr>
+      <tr style="text-align: end">
+        <td class="table">7</td>
+        <td class="table">8</td>
+        <td class="table">9</td>
+      </tr>
+    </table>
+    <hr />
+    <table class="table">
+      <tr>
+        <td class="table">1</td>
+        <td class="table">2</td>
+        <td class="table">3</td>
+      </tr>
+      <tr style="text-align: center">
+        <td class="table" colspan="3">4</td>
+      </tr>
+      <tr>
+        <td class="table">7</td>
+        <td class="table">8</td>
+        <td class="table">9</td>
+      </tr>
+    </table>
+    <hr />
+    <table class="table">
+      <tr>
+        <td class="table">1</td>
+        <td class="table">2</td>
+        <td style="text-align: center" class="table" rowspan="3">3</td>
+      </tr>
+      <tr style="text-align: center">
+        <td class="table" colspan="2">4</td>
+      </tr>
+      <tr>
+        <td class="table">5</td>
+        <td class="table">6</td>
+      </tr>
+    </table>
+  </body>
+</html>
